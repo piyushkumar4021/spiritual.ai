@@ -1,5 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import PageNotFound from './PageNotFound';
+
 function App() {
-  return <h1>Spiritual.ai</h1>;
+  return (
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='*' element={<PageNotFound />} />
+    </Routes>
+  );
 }
 
 export default App;
