@@ -1,3 +1,5 @@
+import { Heading } from '@radix-ui/themes';
+
 export default function Home() {
-  return <h1>Spiritual.ai</h1>;
+  return <Heading as='h1'>Spiritual.ai</Heading>;
 }

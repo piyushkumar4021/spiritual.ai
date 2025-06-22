@@ -1,3 +1,5 @@
+import { Heading } from '@radix-ui/themes';
+
 export default function PageNotFound() {
-  return <h1>Page not found.</h1>;
+  return <Heading as='h1'>404 Page not found</Heading>;
 }
